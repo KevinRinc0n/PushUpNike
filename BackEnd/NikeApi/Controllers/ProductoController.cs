@@ -10,7 +10,7 @@ namespace NikeApi.Controllers;
 
 [ApiVersion("1.0")]
 [ApiVersion("1.1")]
-[Authorize (Roles= "Administrador")]    
+// [Authorize (Roles= "Administrador")]    
 
 public class ProductoController : BaseApiController
 {
